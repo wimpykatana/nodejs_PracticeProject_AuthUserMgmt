@@ -87,7 +87,6 @@ app.post("/register", (req,res) => {
   return res.status(404).json({message: "Unable to register user."});
 });
 
-
 const PORT =5000;
 
 app.use("/friends", routes);
